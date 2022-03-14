@@ -1,0 +1,111 @@
+data:
+ /gpfs/project/projects/medbioinf/data/hgsvc_downsampling/ONT/align/HG002/HG002_10X.all.sorted.bam:
+  - HG002
+  - 10
+  - ont
+ /gpfs/project/projects/medbioinf/data/hgsvc_downsampling/ONT/align/HG002/HG002_12X.all.sorted.bam:
+  - HG002
+  - 12
+  - ont
+ /gpfs/project/projects/medbioinf/data/hgsvc_downsampling/ONT/align/HG002/HG002_15X.all.sorted.bam:
+  - HG002
+  - 15
+  - ont
+ /gpfs/project/projects/medbioinf/data/hgsvc_downsampling/ONT/align/HG002/HG002_17X.all.sorted.bam:
+  - HG002
+  - 17
+  - ont
+ /gpfs/project/projects/medbioinf/data/hgsvc_downsampling/ONT/align/HG002/HG002_20X.all.sorted.bam:
+  - HG002
+  - 20
+  - ont
+ /gpfs/project/projects/medbioinf/data/hgsvc_downsampling/ONT/align/HG002/HG002_25X.all.sorted.bam:
+  - HG002
+  - 25
+  - ont
+ /gpfs/project/projects/medbioinf/data/hgsvc_downsampling/ONT/align/HG002/HG002_30X.all.sorted.bam:
+  - HG002
+  - 30
+  - ont
+ /gpfs/project/projects/medbioinf/data/hgsvc_downsampling/ONT/align/HG002/HG002_5X.all.sorted.bam:
+  - HG002
+  - 5
+  - ont
+ /gpfs/project/projects/medbioinf/data/hgsvc_downsampling/ONT/align/HG002/HG002_8X.all.sorted.bam:
+  - HG002
+  - 8
+  - ont
+ /gpfs/project/projects/medbioinf/data/hgsvc_downsampling/ONT_UL/align/HG002/HG002_10X.all.sorted.bam:
+  - HG002
+  - 10
+  - ont-ul
+ /gpfs/project/projects/medbioinf/data/hgsvc_downsampling/ONT_UL/align/HG002/HG002_12X.all.sorted.bam:
+  - HG002
+  - 12
+  - ont-ul
+ /gpfs/project/projects/medbioinf/data/hgsvc_downsampling/ONT_UL/align/HG002/HG002_15X.all.sorted.bam:
+  - HG002
+  - 15
+  - ont-ul
+ /gpfs/project/projects/medbioinf/data/hgsvc_downsampling/ONT_UL/align/HG002/HG002_17X.all.sorted.bam:
+  - HG002
+  - 17
+  - ont-ul
+ /gpfs/project/projects/medbioinf/data/hgsvc_downsampling/ONT_UL/align/HG002/HG002_20X.all.sorted.bam:
+  - HG002
+  - 20
+  - ont-ul
+ /gpfs/project/projects/medbioinf/data/hgsvc_downsampling/ONT_UL/align/HG002/HG002_25X.all.sorted.bam:
+  - HG002
+  - 25
+  - ont-ul
+ /gpfs/project/projects/medbioinf/data/hgsvc_downsampling/ONT_UL/align/HG002/HG002_30X.all.sorted.bam:
+  - HG002
+  - 30
+  - ont-ul
+ /gpfs/project/projects/medbioinf/data/hgsvc_downsampling/ONT_UL/align/HG002/HG002_5X.all.sorted.bam:
+  - HG002
+  - 5
+  - ont-ul
+ /gpfs/project/projects/medbioinf/data/hgsvc_downsampling/ONT_UL/align/HG002/HG002_8X.all.sorted.bam:
+  - HG002
+  - 8
+  - ont-ul
+ /gpfs/project/projects/medbioinf/data/hgsvc_downsampling/PacBio_HiFi/align/HG002/HG002_10X.all.sorted.bam:
+  - HG002
+  - 10
+  - hifi
+ /gpfs/project/projects/medbioinf/data/hgsvc_downsampling/PacBio_HiFi/align/HG002/HG002_12X.all.sorted.bam:
+  - HG002
+  - 12
+  - hifi
+ /gpfs/project/projects/medbioinf/data/hgsvc_downsampling/PacBio_HiFi/align/HG002/HG002_15X.all.sorted.bam:
+  - HG002
+  - 15
+  - hifi
+ /gpfs/project/projects/medbioinf/data/hgsvc_downsampling/PacBio_HiFi/align/HG002/HG002_17X.all.sorted.bam:
+  - HG002
+  - 17
+  - hifi
+ /gpfs/project/projects/medbioinf/data/hgsvc_downsampling/PacBio_HiFi/align/HG002/HG002_20X.all.sorted.bam:
+  - HG002
+  - 20
+  - hifi
+ /gpfs/project/projects/medbioinf/data/hgsvc_downsampling/PacBio_HiFi/align/HG002/HG002_25X.all.sorted.bam:
+  - HG002
+  - 25
+  - hifi
+ /gpfs/project/projects/medbioinf/data/hgsvc_downsampling/PacBio_HiFi/align/HG002/HG002_30X.all.sorted.bam:
+  - HG002
+  - 30
+  - hifi
+ /gpfs/project/projects/medbioinf/data/hgsvc_downsampling/PacBio_HiFi/align/HG002/HG002_5X.all.sorted.bam:
+  - HG002
+  - 5
+  - hifi
+ /gpfs/project/projects/medbioinf/data/hgsvc_downsampling/PacBio_HiFi/align/HG002/HG002_8X.all.sorted.bam:
+  - HG002
+  - 8
+  - hifi
+
+reference: /gpfs/project/projects/medbioinf/users/ebler/LRS-project/lrs-project/reference/hg38.no_alt.fa

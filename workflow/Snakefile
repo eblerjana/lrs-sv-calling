@@ -1,0 +1,24 @@
+configfile: "config/config.yaml"
+include: "rules/sv-calling.smk"
+
+all_samples = set([])
+all_tech = set([])
+
+for filename in config['data']:
+	info = [i for i in config['data'][filename]]
+	sample = info[0]
+	tech = info[2]
+	all_samples.add(sample)
+	assert tech in ['hifi', 'ont', 'ont-ul']
+	all_tech.add(tech)
+
+all_samples = list(all_samples)
+all_tech = list(all_tech)
+
+rule all:
+	input:
+		expand("results/{tech}/{sample}/plots/{tech}_{sample}_upset-integrated.pdf", tech=all_tech, sample=all_samples),
+		expand("results/{tech}/{sample}/plots/{tech}_{sample}_{caller}_upset.pdf", tech=all_tech, sample=all_samples, caller=['cutesv', 'sniffles', 'svim']),
+		expand("results/{tech}/{sample}/plots/{tech}_{sample}_sv-lengths.pdf", tech=all_tech, sample=all_samples),
+		expand("results/{tech}/{sample}/plots/{tech}_{sample}_sv-counts.pdf", tech=all_tech, sample=all_samples),
+		expand( "results/{tech}/{sample}/plots/{tech}_{sample}_{metric}.pdf", tech=all_tech, sample=all_samples, metric=["fscore"])
