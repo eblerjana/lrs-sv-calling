@@ -1,1 +1,1 @@
-# lrs-sv-calling
+# SV calling pipeline using long sequencing reads
