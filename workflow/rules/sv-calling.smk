@@ -40,7 +40,7 @@ cutesv_params = {
 cutesv_min_support = {}
 cutoff_qual = {}
 #for cov in coverages:
-#	cutesv_min_support[cov] = int(min(10, math.ceil(int(cov)*0.25))) #int(min(10, round(int(cov)*0.6, 0)))
+#	cutesv_min_support[cov] = int(min(10, round(int(cov)*0.6, 0)))  #int(min(10, math.ceil(int(cov)*0.25)))
 #	cutoff_qual[cov] = math.ceil(int(cov)/4.0)
 
 for cov in coverages:

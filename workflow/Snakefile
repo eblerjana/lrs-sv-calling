@@ -21,4 +21,4 @@ rule all:
 		expand("results/{tech}/{sample}/plots/{tech}_{sample}_{caller}_upset.pdf", tech=all_tech, sample=all_samples, caller=['cutesv', 'sniffles', 'svim']),
 		expand("results/{tech}/{sample}/plots/{tech}_{sample}_sv-lengths.pdf", tech=all_tech, sample=all_samples),
 		expand("results/{tech}/{sample}/plots/{tech}_{sample}_sv-counts.pdf", tech=all_tech, sample=all_samples),
-		expand( "results/{tech}/{sample}/plots/{tech}_{sample}_{metric}.pdf", tech=all_tech, sample=all_samples, metric=["fscore"])
+		expand( "results/{tech}/{sample}/plots/{tech}_{sample}_{metric}.pdf", tech=all_tech, sample=['HG002'], metric=["fscore"])
