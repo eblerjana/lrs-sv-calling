@@ -4,5 +4,9 @@ The pipeline calls structural variants from aligned long sequencing reads (PacBi
 
 ## How to run
 
-For each BAM file to be analyzed, the path to the corresponding BAM file must be specified in config/config.yaml, together with a sample name, the coverage and the sequencing technology ("hifi", "ont" or "ont-ul").
+For each BAM file to be analyzed, the path to the corresponding BAM file must be specified in `` config/config.yaml ``, together with a sample name, the coverage and the sequencing technology ("hifi", "ont" or "ont-ul").
 Furthermore, the path to the reference sequence used must be added to the config file.
+
+The pipeline can then be run using the following command:
+
+`` snakemake -j <nr_cores> ``
